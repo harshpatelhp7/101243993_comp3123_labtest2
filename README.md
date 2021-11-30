@@ -1,0 +1,1 @@
+![Alt text](./Paris_weather.JPG?raw=true "Optional Title")
