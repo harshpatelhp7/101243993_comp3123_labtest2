@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -35,4 +36,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.temp{
+  font-size: 3em;
+  padding: 8px 16px;
+  background: rgb(243, 150, 158);
+  width: max-content;
+  margin-left: 45%;
+  border-radius: 50px;
+}
+
+.outputContainer{
+  text-align: center;
+
+}
+
+input{
+    background-color: #e3edf7;
+  padding: 16px 32px;
+  border: 10;
+  border-color: red;
+  border-radius: 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  font-size: large;
+  color:purple;
+  -webkit-appearance: none;
+  transition: all 240ms ease-out; 
+  text-align: center;
+  margin-left: 5%; 
+  }
+
+button{
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+.icon_type{
+  display: flex;
+  width: 100%;
+}
+
+img{
+  margin: 0 auto;
+  width: 8%;
+  padding: 8px 16px;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.type{
+  font-size: 2em;
+  margin-top: -2%;
 }
