@@ -22,7 +22,7 @@ function App() {
   const getWeatherData = async (cityName) => {
     try {
       const { data } = await axios.get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=e8073111604440a77d90fe604e55fd0c`
+        `http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=APIKEY`
       );
       return data;
     } catch (error) {
