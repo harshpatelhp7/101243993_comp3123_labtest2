@@ -53,7 +53,7 @@ function App() {
           type="text"
           value={cityName}
           onChange={(e) => setcityName(e.target.value)}
-          placeholder="city name"
+          placeholder="City"
         />
         <button type="button" onClick={() => getData()}>
           Search
